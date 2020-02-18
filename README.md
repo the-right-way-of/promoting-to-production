@@ -14,3 +14,10 @@ Because of this question GitFlow (TM) has been introduced which is another piece
 ### Would you want to test your software on the CI?
 
 I can't push the artifact before testing but its okay to push the code, really?
+
+#### Developers are not fortune tellers
+
+How can you expect people to push Production Ready (TM?) code everytime?
+Its like writing a cheque to someone without knowing the amount.
+Artifacts and source code are like cash and book-keeping
+
