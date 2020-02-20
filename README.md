@@ -21,3 +21,9 @@ How can you expect people to push Production Ready (TM?) code everytime?
 Its like writing a cheque to someone without knowing the amount.
 Artifacts and source code are like cash and book-keeping
 
+#### Artifact promotion as a step
+
+Same artifact should be moved between production and non-production repositories.
+CI is not the only decision maker for pushing artifact to production. 
+Promotion and CD can be linked, but linking CI to promotion has seen problems, especially with new team members.
+Its not safe if all production artifacts are stored in the same repository as non-production ones, one can accidentally deploy an untested artifact to production.
